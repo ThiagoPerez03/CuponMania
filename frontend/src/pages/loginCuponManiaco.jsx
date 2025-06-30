@@ -15,7 +15,7 @@ const loginCuponManiaco = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:8000/cupones/login/', {
+            const response = await axios.post('https://cuponmania-backend.onrender.com/cupones/login/', {
                 username: username.trim(),
                 password: password.trim(),
             });

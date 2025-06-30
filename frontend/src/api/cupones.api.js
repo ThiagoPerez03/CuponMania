@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const cuponesApi = axios.create({
-    baseURL: 'http://localhost:8000/cupones/api/cupones/'
+    baseURL: 'https://cuponmania-backend.onrender.com/cupones/'
 })
 // En estos casos utilizo la url base, pero si necesito otra URL no sirve.
 export const getAllCupones = () => cuponesApi.get('/');

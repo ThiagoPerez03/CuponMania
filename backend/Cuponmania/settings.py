@@ -138,6 +138,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
     # Aquí deberás agregar la URL de tu frontend cuando la tengas desplegada
     # 'https://tu-frontend.onrender.com',
+    'https://cuponmania.onrender.com/inicio',
     'http://localhost:3000', # Puedes mantener esto para desarrollo local
 ]
 # En producción, es mejor ser explícito con los orígenes permitidos.

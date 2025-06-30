@@ -18,7 +18,7 @@ export default function RegistroCuponero() {
         e.preventDefault();
         setTipo('EM');
         try {
-            await axios.post('http://localhost:8000/cupones/signup/', {
+            await axios.post('https://cuponmania-backend.onrender.com/cupones/signup/', {
                 username,
                 email,
                 password,
