@@ -1,7 +1,6 @@
 # requirements.txt
 
 asgiref==3.7.2
-corsheaders==0.0.4
 dj-database-url==2.1.0
 Django==4.1.13
 django-cors-headers==4.3.1
