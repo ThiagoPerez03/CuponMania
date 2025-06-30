@@ -1,0 +1,53 @@
+# .gitignore
+
+# Entornos Virtuales de Python
+# Ignora la carpeta del entorno virtual
+venv/
+env/
+.venv/
+*/venv/
+*/env/
+*/.venv/
+
+# Archivos de Bytecode y Caché de Python
+# Estos se generan automáticamente y no son necesarios en el repo
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Base de datos local
+# Nunca subas tu base de datos de desarrollo al repositorio
+db.sqlite3
+*.sqlite3
+
+# Archivos de entorno
+# Contiene variables sensibles como la SECRET_KEY y credenciales de la base de datos
+.env
+
+# Archivos estáticos y de medios recolectados
+# Estos son generados por Django en el despliegue
+staticfiles/
+media/
+
+# Registros (Logs)
+# Archivos de registro que puede generar tu aplicación
+*.log
+logs/
+
+# Archivos de configuración de IDEs
+# Configuraciones específicas de tu editor de código
+.idea/
+.vscode/
+*.swp
+
+# Archivos del sistema operativo
+# Archivos específicos de macOS, Windows y Linux
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Reportes de pruebas y cobertura
+# Archivos generados al ejecutar pruebas
+.coverage
+htmlcov/
